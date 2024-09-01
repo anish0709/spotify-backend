@@ -14,7 +14,7 @@ connectDB()
 
 // middlewares
 app.use(cors({
-  origin: 'http://localhost:5174' // Adjust this to your frontend URL
+  origin: 'https://spotify-clone-neon-eight.vercel.app' // Adjust this to your frontend URL
 }));
 app.use(cors())
 
